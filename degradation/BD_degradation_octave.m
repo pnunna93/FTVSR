@@ -1,6 +1,6 @@
 pkg load image;
-data_path='/workspace/vimeo/vimeo_septuplet/sequences_BD/';
-output_path='/workspace/vimeo/vimeo_septuplet/sequences_BD_crf15/';
+data_path='/workspace/vimeo/vimeo_septuplet/sequences/';
+output_path='/workspace/vimeo/vimeo_septuplet/sequences_BD/';
 scale = 4;
 sigma = 1.6;
 kernelsize = ceil(sigma * 3) * 2 + 2;
