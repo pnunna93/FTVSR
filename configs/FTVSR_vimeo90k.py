@@ -17,7 +17,7 @@ test_cfg = dict(metrics=['PSNR', 'SSIM'], crop_border=0, convert_to='y')
 train_dataset_type = 'SRVimeo90KMultipleGTDataset'
 val_dataset_type = 'SRVid4Dataset'
 test_dataset_type = 'SRFolderMultipleGTDataset'
-dataset_root = './VSR/'
+dataset_root = '/workspace/'
 
 
 train_pipeline = [
