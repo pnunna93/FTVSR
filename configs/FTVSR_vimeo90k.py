@@ -129,7 +129,7 @@ optimizers = dict(
     generator=dict(type='AdamW',lr=2e-4,betas=(0.9, 0.99),weight_decay=0.05, paramwise_cfg=dict(custom_keys={'spynet': dict(lr_mult=0.125)})))
 
 # learning policy
-total_iters = 400000
+total_iters = 2000
 lr_config = dict(
     policy='CosineRestart',
     by_epoch=False,
